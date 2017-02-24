@@ -10,7 +10,7 @@ public class DetectLocation : MonoBehaviour {
 	//device location coordinates
 	private Vector2 deviceCoordinates;
 	//Distance that allowed from device to target
-	private float distanceFromTarget = 0.0001f;
+	private float distanceFromTarget = 0.001f;
 	//Distance between device to target coordinate
 	private float proximity = 0.01f;
 	//Values that passed from Device's GPS
